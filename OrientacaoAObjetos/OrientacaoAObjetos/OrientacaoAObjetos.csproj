@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OrientacaoAObjetos.TestaContaEAgencia</StartupObject>
+    <StartupObject>OrientacaoAObjetos.TestaGerente</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gerente.cs" />
     <Compile Include="TestaClienteECartao.cs" />
     <Compile Include="TestaContaEAgencia.cs" />
+    <Compile Include="TestaGerente.cs" />
+    <Compile Include="TestaMetodosConta.cs" />
     <Compile Include="TestaValoresPadrao.cs" />
     <Compile Include="Agencia.cs" />
     <Compile Include="CartaoDeCredito.cs" />
