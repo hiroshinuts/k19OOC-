@@ -10,7 +10,9 @@ namespace OrientacaoAObjetos
     {
         static void Main(string[] args)
         {
-            Conta c = new Conta();
+            Agencia a = new Agencia(1234);
+
+            Conta c = new Conta(a);
             Console.WriteLine("Chamando o metodo deposita passando o valor 1000");
             c.Deposita(1000);
             c.ImprimeExtrato();

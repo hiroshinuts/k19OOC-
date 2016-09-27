@@ -13,6 +13,11 @@ namespace OrientacaoAObjetos
         public double limite = 100;
         public Agencia agencia;
 
+        public Conta(Agencia agencia)
+        {
+            this.agencia = agencia;
+        }
+
         //METODOS
 
         public void Deposita(double valor)
@@ -33,6 +38,12 @@ namespace OrientacaoAObjetos
         public double ConsultaSaldoDisponivel()
         {
             return this.saldo + this.limite;
+        }
+
+        public void Transfere(Conta destino, double valor)
+        {
+            this.saldo -= valor;
+            destino.saldo += valor;
         }
 
     }

@@ -10,7 +10,9 @@ namespace OrientacaoAObjetos
     {
         static void Main(string[] args)
         {
-            Conta c = new OrientacaoAObjetos.Conta();
+            Agencia a = new Agencia(1234);
+
+            Conta c = new OrientacaoAObjetos.Conta(a);
             Console.WriteLine(c.numero);
             Console.WriteLine(c.limite);
             Console.WriteLine(c.saldo);

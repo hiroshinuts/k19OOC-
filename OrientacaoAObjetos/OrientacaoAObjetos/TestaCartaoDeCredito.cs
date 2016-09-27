@@ -11,11 +11,11 @@ namespace OrientacaoAObjetos
         static void Main(string[] args)
         {
 
-            CartaoDeCredito cdc1 = new CartaoDeCredito();
+            CartaoDeCredito cdc1 = new CartaoDeCredito(111111);
             cdc1.numero = 111111;
             cdc1.dataDeValidade = "01/01/2013";
 
-            CartaoDeCredito cdc2 = new CartaoDeCredito();
+            CartaoDeCredito cdc2 = new CartaoDeCredito(222222);
             cdc2.numero = 222222;
             cdc2.dataDeValidade = "01/01/2014";
 

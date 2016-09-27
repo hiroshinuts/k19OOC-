@@ -10,8 +10,8 @@ namespace OrientacaoAObjetos
     {
         static void Main(string[] args)
         {
-            Agencia a = new Agencia();
-            Conta c = new Conta();
+            Agencia a = new Agencia(1234);
+            Conta c = new Conta(a);
 
             a.numero = 178;
             c.numero = 123;

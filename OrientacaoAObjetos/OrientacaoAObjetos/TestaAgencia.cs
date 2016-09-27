@@ -10,10 +10,10 @@ namespace OrientacaoAObjetos
     {
         static void Main(string[] args)
         {
-            Agencia a1 = new Agencia();
+            Agencia a1 = new Agencia(1234);
             a1.numero = 1234;
 
-            Agencia a2 = new Agencia();
+            Agencia a2 = new Agencia(5678);
             a2.numero = 5678;
 
             Console.WriteLine("Dados da primeira agencia");

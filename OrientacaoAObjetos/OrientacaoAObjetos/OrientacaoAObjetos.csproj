@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OrientacaoAObjetos.TestaGerente</StartupObject>
+    <StartupObject>OrientacaoAObjetos.TestaMetodoTransfere</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="TestaContaEAgencia.cs" />
     <Compile Include="TestaGerente.cs" />
     <Compile Include="TestaMetodosConta.cs" />
+    <Compile Include="TestaMetodoTransfere.cs" />
     <Compile Include="TestaValoresPadrao.cs" />
     <Compile Include="Agencia.cs" />
     <Compile Include="CartaoDeCredito.cs" />

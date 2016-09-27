@@ -12,7 +12,7 @@ namespace OrientacaoAObjetos
         static void Main(string[] args)
         {
             Cliente c = new Cliente();
-            CartaoDeCredito cdc = new CartaoDeCredito();
+            CartaoDeCredito cdc = new CartaoDeCredito(111111);
 
             c.nome = "Rafael Hiroshi";
             c.codigo = 123;
