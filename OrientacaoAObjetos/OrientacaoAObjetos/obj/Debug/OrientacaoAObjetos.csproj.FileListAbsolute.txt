@@ -1,0 +1,6 @@
+c:\users\hiro\documents\visual studio 2015\Projects\OrientacaoAObjetos\OrientacaoAObjetos\bin\Debug\OrientacaoAObjetos.exe.config
+c:\users\hiro\documents\visual studio 2015\Projects\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.csprojResolveAssemblyReference.cache
+c:\users\hiro\documents\visual studio 2015\Projects\OrientacaoAObjetos\OrientacaoAObjetos\bin\Debug\OrientacaoAObjetos.exe
+c:\users\hiro\documents\visual studio 2015\Projects\OrientacaoAObjetos\OrientacaoAObjetos\bin\Debug\OrientacaoAObjetos.pdb
+c:\users\hiro\documents\visual studio 2015\Projects\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.exe
+c:\users\hiro\documents\visual studio 2015\Projects\OrientacaoAObjetos\OrientacaoAObjetos\obj\Debug\OrientacaoAObjetos.pdb
